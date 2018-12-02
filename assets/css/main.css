@@ -1,0 +1,143 @@
+/* Breath of the Wild
+BotW Blue	#20f0d8
+BotW Gray	#948e7e
+BotW Main Quest	#e0c039
+BotW Memory	#b6e9d3
+BotW Monk Blue	#d1ffff
+BotW Red	#ef3f54
+BotW Shrine Quest	#15a6d3
+BotW Side Quest	#b1d213
+BotW Yellow	#e8c930 */
+
+
+@font-face {
+    font-family: 'hylia_serif_betaregular';
+    src: url('../font/hylia_serif/hyliaserifbeta-regular-webfont.woff2') format('woff2'),
+         url('../font/hylia_serif/hyliaserifbeta-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+  font-family: 'hylia_serif_betaregular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1{
+  margin-bottom: 0.5em;
+}
+
+.infoDiv{
+  height: 4rem;
+}
+
+.cardInfoDiv{
+  height: 3rem;
+}
+
+.bg-primary{
+  background-color: #20f0d8 !important;
+}
+
+.bg-danger{
+  background-color: #ef3f54 !important;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0.5%;
+  background-image: url("../image/bkgd_botw.jpg");
+  background-size: cover;
+  padding: 3%;
+  padding-top: 1%;
+
+}
+
+.btn-primary{
+  background-color: #20f0d8 !important;
+}
+
+.btn-danger{
+background-color: #ef3f54 !important;
+}
+
+.btn-success{
+ background-color: #b1d213 !important;
+}
+
+.mask{
+  background-color: rgba(32, 181, 240, 0.3);
+  border-radius: .25rem;
+}
+
+.fa-heart{
+  color: red;
+  text-shadow: 0px 0px 1px #000;
+  margin-right: 1px;
+}
+
+.fa-bolt{
+  color: yellow;
+  text-shadow: 0px 0px 1px #000;
+}
+
+.fa-sync-alt{
+  color: #15a6d3;
+  text-shadow: 0px 0px 1px #000;
+  
+}
+
+.cardContainer {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.heartCount{
+  text-align: left;
+}
+.card-img-top {
+    width:  100%;
+    height: 270px;
+}
+
+.list-group-item{
+  padding: 0.5em;
+}
+.controls{
+  height: 4rem;
+}
+
+.modalGameOver{
+  height: 500px;
+  text-align: center;
+  background-color: #000;
+  color: white
+}
+
+.modalIntro{
+  height: 500px;
+  text-align: center;
+  background-image: url("../image/gameIntro_botw.jpg");
+  background-size: cover;
+  color: white
+}
+
+.modalGameWin{
+  height: 500px;
+  text-align: center;
+  background-image: url("../image/gameWin_botw.jpg");
+  background-size: cover;
+  color: white
+}
+
+.modalCol{
+  position: absolute;
+  top: 50%;
+}
+
+.modalButton{
+  position: absolute;
+  bottom: 10%;
+}
